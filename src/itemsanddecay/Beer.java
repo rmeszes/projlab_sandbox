@@ -1,4 +1,4 @@
-package projlab;
+package itemsanddecay;
 public class Beer implements Decaying, Item {
 
     private ItemHolder holder;

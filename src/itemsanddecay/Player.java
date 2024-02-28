@@ -1,9 +1,9 @@
-package projlab;
+package itemsanddecay;
 
 import java.util.ArrayList;
 
 public class Player implements ItemHolder{
-    private ArrayList<Item> itemsHeld = new ArrayList<>();
+    private final ArrayList<Item> itemsHeld = new ArrayList<>();
     public void destroy(Item item) {
         itemsHeld.remove(item);
     }
